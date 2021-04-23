@@ -12,3 +12,6 @@
   --font-1: "Playfair";
   --font-2: "PT Sans";
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
