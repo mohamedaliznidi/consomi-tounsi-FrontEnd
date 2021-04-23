@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Playfair+Display&display=swap");
+
+:root {
+  --light-1: #fff;
+  --light-2: #bbb;
+  --main-1: #f94d4d;
+  --main-2: #f70707;
+  --main-3: #b20606;
+  --dark-1: #1f1f1f;
+  --dark-2: #000;
+  --font-1: "Playfair";
+  --font-2: "PT Sans";
+}
