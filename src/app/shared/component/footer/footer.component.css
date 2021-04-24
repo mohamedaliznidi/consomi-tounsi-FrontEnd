@@ -1,0 +1,14 @@
+footer {
+  background: var(--dark-1);
+  color: var(--light-2);
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

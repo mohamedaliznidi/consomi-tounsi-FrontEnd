@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+mat-toolbar {
+  background: var(--main-1);
+  color: var(--light-1);
+}
+a {
+  text-decoration: none;
+  color: var(--light-1);
+}
+button:hover {
+  background: var(--main-3);
+}

@@ -7,11 +7,20 @@
   --main-1: #f94d4d;
   --main-2: #f70707;
   --main-3: #b20606;
-  --dark-1: #1f1f1f;
+  --dark-1: #494848;
   --dark-2: #000;
   --font-1: "Playfair";
   --font-2: "PT Sans";
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+body {
+  background: var(--light-1);
+}
