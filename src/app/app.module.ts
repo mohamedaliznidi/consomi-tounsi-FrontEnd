@@ -7,27 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AdminModule } from './layouts/admin/admin.module';
 import { HomeModule } from './layouts/home/home.module';
-import { HeaderComponent } from './components/shared/header/header.component';
-import { FooterComponent } from './components/shared/footer/footer.component';
-import { NavComponent } from './components/shared/nav/nav.component';
-import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
-import { ProductComponent } from './components/product/product/product.component';
-import { ProductcategoryComponent } from './components/product/productcategory/productcategory.component';
-import { CommentproductComponent } from './components/product/commentproduct/commentproduct.component';
-import { PublicityComponent } from './components/publicity/publicity/publicity.component';
+import { LoginModule } from './layouts/login/login.module';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    NavComponent,
-    ShoppingCartComponent,
-    ProductComponent,
-    ProductcategoryComponent,
-    CommentproductComponent,
-    PublicityComponent,
-  ],
+  declarations: [AppComponent, SearchBarComponent],
 
   imports: [
     BrowserModule,
@@ -35,6 +21,7 @@ import { PublicityComponent } from './components/publicity/publicity/publicity.c
     BrowserAnimationsModule,
     AdminModule,
     HomeModule,
+    LoginModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
