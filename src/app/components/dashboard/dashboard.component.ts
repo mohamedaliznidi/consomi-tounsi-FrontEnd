@@ -35,10 +35,12 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
     //this.getUsers();
   }
 
   /*public getUsers(): void {
+   
     this.dashboardservice.getUsers().subscribe(
       (response: Users[]) => {
         this.users = response;
@@ -48,5 +50,7 @@ export class DashboardComponent implements OnInit {
         alert(error.message);
       }
     );
+
   }*/
+
 }
