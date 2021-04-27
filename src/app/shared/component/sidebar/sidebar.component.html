@@ -10,13 +10,32 @@
     </div>
   </div>
 
-  <div>PROFILE</div>
-
   <mat-divider></mat-divider>
 
-  MENU
+  <h2 matSubheader>Pages</h2>
+  <a mat-list-item routerLink="/admin" routerLinkActive="router-link-active"
+    >Dashboard</a
+  >
+  <a mat-list-item routerLink="/" routerLinkActive="router-link-active"
+    >Claims</a
+  >
 
   <mat-divider></mat-divider>
-
-  ANOTHER MENU
+  <h2 matSubheader>Users</h2>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+    <mat-icon>import_contacts</mat-icon>
+    All
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+    <mat-icon>contacts</mat-icon>
+    Admin
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+    <mat-icon>contacts</mat-icon>
+    Managers
+  </a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+    <mat-icon>contacts</mat-icon>
+    Delivery Man
+  </a>
 </mat-nav-list>

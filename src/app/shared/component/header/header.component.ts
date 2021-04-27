@@ -1,6 +1,5 @@
-import { EventEmitter } from '@angular/core';
 import { Output } from '@angular/core';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
