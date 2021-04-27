@@ -1,7 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { DashboardService } from './dashboard.service';
-import { MatTableDataSource } from '@angular/material/table';
 
 export interface Users {
   id: number;
@@ -35,7 +34,6 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
     //this.getUsers();
   }
 
@@ -52,5 +50,4 @@ export class DashboardComponent implements OnInit {
     );
 
   }*/
-
 }

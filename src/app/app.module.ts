@@ -7,10 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AdminModule } from './layouts/admin/admin.module';
 import { HomeModule } from './layouts/home/home.module';
-import { LoginModule } from './layouts/login/login.module';
+
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
-
-
 
 @NgModule({
   declarations: [AppComponent, SearchBarComponent],
@@ -21,7 +19,6 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     BrowserAnimationsModule,
     AdminModule,
     HomeModule,
-    LoginModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
