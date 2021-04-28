@@ -3,12 +3,11 @@
 
 :root {
   --light-1: #fff;
-  --light-2: #bbb;
-  --main-1: #f94d4d;
-  --main-2: #f70707;
-  --main-3: #b20606;
-  --dark-1: #494848;
-  --dark-2: #000;
+  --light-2: #f3f3f3;
+  --main-1: #f59896;
+  --main-2: #f16c69;
+  --dark-1: #646b7e;
+  --dark-2: #3a3e47;
   --font-1: "Playfair";
   --font-2: "PT Sans";
 }

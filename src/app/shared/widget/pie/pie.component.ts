@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import HC_exporting from 'highcharts/modules/exporting';
 
@@ -7,6 +7,7 @@ import HC_exporting from 'highcharts/modules/exporting';
   templateUrl: './pie.component.html',
   styleUrls: ['./pie.component.css'],
 })
+
 export class PieComponent implements OnInit {
   Highcharts = Highcharts;
 

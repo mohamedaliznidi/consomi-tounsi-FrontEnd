@@ -8,45 +8,51 @@
 
 <div
   fxLayout="row"
-  fxLayoutAlign="space-between center"
-  fxLayoutGap="20px"
+  fxLayout.xs="column"
+  fxLayoutAlign="space-evenly center"
   class="stats-cards"
 >
-  <mat-card fxFlex="25">
-    <app-widget-card
-      label="New Users"
-      total="12k"
-      percentage="50"
-    ></app-widget-card>
-  </mat-card>
-  <mat-card fxFlex="25">
-    <app-widget-card
-      label="Users retention"
-      total="10k"
-      percentage="40"
-    ></app-widget-card>
-  </mat-card>
-  <mat-card fxFlex="25">
-    <app-widget-card
-      label="Users engagement"
-      total="8k"
-      percentage="30"
-    ></app-widget-card>
-  </mat-card>
-  <mat-card fxFlex="25">
-    <app-widget-card
-      label="Referral"
-      total="6k"
-      percentage="20"
-    ></app-widget-card>
-  </mat-card>
+  <div fxLayout="row" fxLayout.sm="column">
+    <mat-card fxFlex="50" fxFlex.sm="50">
+      <app-widget-card
+        label="New Users"
+        total="12k"
+        percentage="50"
+      ></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="50">
+      <app-widget-card
+        label="Users retention"
+        total="10k"
+        percentage="40"
+      ></app-widget-card>
+    </mat-card>
+  </div>
+  <div fxLayout="row" fxLayout.sm="column">
+    <mat-card fxFlex="50" fxFlex.sm="50">
+      <app-widget-card
+        label="New Users"
+        total="12k"
+        percentage="50"
+      ></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="50">
+      <app-widget-card
+        label="Users retention"
+        total="10k"
+        percentage="40"
+      ></app-widget-card>
+    </mat-card>
+  </div>
 </div>
 <br />
 <mat-divider></mat-divider>
 <br />
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
-  <div fxFlex="60"><app-widget-table></app-widget-table></div>
-  <div fxFlex="40">
+  <div fxFlex="60" fxFlex.sm="50" fxFlex.xs="100">
+    <app-widget-table></app-widget-table>
+  </div>
+  <div fxFlex="40" fxFlex.sm="50" fxFlex.xs="100">
     <app-widget-pie></app-widget-pie>
   </div>
 </div>

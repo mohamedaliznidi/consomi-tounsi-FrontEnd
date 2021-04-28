@@ -2,7 +2,7 @@ ul {
   list-style: none;
 }
 mat-toolbar {
-  background: var(--main-1);
+  background: var(--main-2);
   color: var(--light-1);
 }
 a {
@@ -10,5 +10,5 @@ a {
   color: var(--light-1);
 }
 button:hover {
-  background: var(--main-3);
+  filter: grayscale(70%);
 }
