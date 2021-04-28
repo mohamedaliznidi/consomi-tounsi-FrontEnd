@@ -7,11 +7,4 @@ import { Users } from './dashboard.component';
 @Injectable({
   providedIn: 'root',
 })
-export class DashboardService {
-  constructor(private http: HttpClient) {}
-  private apiserverUrl = environment.apiBaseUrl;
-
-  public getUsers(): Observable<Users[]> {
-    return this.http.get<Users[]>(`${this.apiserverUrl}/api/admins/users`);
-  }
-}
+export class DashboardService {}
